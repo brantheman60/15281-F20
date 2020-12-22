@@ -1,0 +1,14 @@
+class: "PositionGraphProblemTest"
+
+layoutName: "tinyMaze"
+layout: """
+%%%%%%%
+%    P%
+% %%% %
+%  %  %
+%%   %%
+%. %%%%
+%%%%%%%
+"""
+
+

@@ -1,0 +1,12 @@
+class: "FoodGraphProblemTest"
+
+layoutName: "test3DotSearch"
+layout: """
+%%%%%
+%.. %
+%%% %
+%.P %
+%%%%%
+"""
+
+

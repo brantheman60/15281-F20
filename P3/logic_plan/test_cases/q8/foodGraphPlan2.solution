@@ -1,0 +1,4 @@
+# This is the solution file for test_cases/q8/foodGraphPlan2.test.
+solution_win: "True"
+solution_score: "523"
+solution_path: "West East East North North West West"

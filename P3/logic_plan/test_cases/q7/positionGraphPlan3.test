@@ -1,0 +1,11 @@
+class: "PositionGraphProblemTest"
+
+layoutName: "mazeDown"
+layout: """
+%%%%
+%P%%
+%. %
+%%%%
+"""
+
+

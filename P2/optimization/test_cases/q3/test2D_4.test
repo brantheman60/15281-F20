@@ -1,0 +1,18 @@
+class: "PointObjTest"
+module: "optimization"
+function: "solveLP"
+success: "PASS"
+failure: "NO PASS"
+tolerance: "0.001"
+
+constraints: """
+[ ((3, 3), 30),
+  ((-3, 3), 30),
+  ((1, -3), 30),
+  ((1, 3), -30) ]
+"""
+
+cost: "(3, 5)"
+
+
+

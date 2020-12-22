@@ -1,0 +1,19 @@
+class: "PointObjTest"
+module: "optimization"
+function: "solveIP"
+success: "PASS"
+failure: "NO PASS"
+tolerance: "0.001"
+
+constraints: """
+[ ((1, 1, 1), 10.5),
+  ((-1, 0, 0), 0.5),
+  ((0, -1, 0), 0.5),
+  ((0, 0, -1), 0.5) ]
+"""
+
+cost: "(-2, -1, -1)"
+
+
+
+

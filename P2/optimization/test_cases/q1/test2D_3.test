@@ -1,0 +1,18 @@
+class: "AllPointsTest"
+module: "optimization"
+function: "findIntersections"
+success: "PASS"
+failure: "NO PASS"
+tolerance: "0.001"
+
+constraints: """
+[ ((-100, -50), -2000),
+  ((100, 50), 2500),
+  ((3, 4), 100),
+  ((-20, -70), -700),
+  ((-1, 0), 0),
+  ((0, -1), 0) ]
+"""
+
+
+

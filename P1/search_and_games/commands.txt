@@ -1,0 +1,45 @@
+python3.6 pacman.py
+python3.6 pacman.py --layout testMaze --pacman GoWestAgent
+python3.6 pacman.py --layout tinyMaze --pacman GoWestAgent
+python3.6 pacman.py -h
+
+python3.6 pacman.py -l threeByOneMaze -p SearchAgent -a fn=ids
+python3.6 pacman.py -l testMaze -p SearchAgent -a fn=ids
+python3.6 pacman.py -l mediumMaze -p SearchAgent -a fn=ids
+python3.6 pacman.py -l contoursMaze -p SearchAgent -a fn=ids
+python3.6 pacman.py -l bigMaze -p SearchAgent -a fn=ids -z .5
+
+python3.6 autograder.py
+python3.6 autograder.py -q q1
+python3.6 autograder.py -t test_cases/graph_backtrack
+
+python3.6 pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+
+python3.6 pacman.py -l tinyCorners -p SearchAgent -a fn=astar,prob=CornersProblem
+python3.6 pacman.py -l mediumCorners -p SearchAgent -a fn=astar,prob=CornersProblem
+
+python3.6 pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
+python3.6 pacman.py -l mediumCorners -p SearchAgent -a fn=aStarSearch,prob=CornersProblem,heuristic=cornersHeuristic -z 0.5
+
+python3.6 pacman.py -l testSearch -p AStarFoodSearchAgent
+python3.6 pacman.py -l testSearch -p SearchAgent -a fn=astar,prob=FoodSearchProblem,heuristic=foodHeuristic
+python3.6 pacman.py -l trickySearch -p AStarFoodSearchAgent
+
+python3.6 pacman.py -p ReflexAgent
+python3.6 pacman.py -p ReflexAgent -l testClassic
+python3.6 pacman.py --frameTime 0 -p ReflexAgent -k 1
+python3.6 pacman.py --frameTime 0 -p ReflexAgent -k 2
+python3.6 autograder.py -q q6
+python3.6 autograder.py -q q6 --no-graphics
+
+python3.6 autograder.py -q q7
+python3.6 autograder.py -q q7 --no-graphics
+python3.6 pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python3.6 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+
+python3.6 autograder.py -q q8
+python3.6 pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+
+python3.6 autograder.py -q q9
+
+

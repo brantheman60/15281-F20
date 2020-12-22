@@ -1,0 +1,15 @@
+class: "AllPointsTest"
+module: "optimization"
+function: "findFeasibleIntersections"
+success: "PASS"
+failure: "NO PASS"
+tolerance: "0.001"
+
+constraints: """
+[ ((1, 1), 10),
+  ((-1, 0), 0),
+  ((0, -1), 0) ]
+"""
+
+
+

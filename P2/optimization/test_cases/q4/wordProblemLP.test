@@ -1,0 +1,9 @@
+class: "PointObjTest"
+module: "optimization"
+function: "wordProblemLP"
+success: "PASS"
+failure: "NO PASS"
+tolerance: "0.001"
+
+
+

@@ -1,0 +1,11 @@
+class: "PositionGraphProblemTest"
+
+layoutName: "mazeLshape"
+layout: """
+%%%%
+% P%
+%.%%
+%%%%
+"""
+
+
